@@ -1,6 +1,6 @@
 public abstract class LibraryItem {
-     String title;
-     int releaseYear;
+     protected String title;
+     protected int releaseYear;
 
     public LibraryItem (String title, int releaseYear){
         this.title = title;
